@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/* background: url(socialmd.jpeg) no-repeat center center fixed; */
+	background-size: cover;
+	background-color: lightblue;
+}
+
+.container {
+	/* border: 12px solid black; */
+	color: black;
+	position: absolute;
+	top: 17%;
+	left: 37%;
+}
+
+.container h1 {
+	font-size: 40px;
+	border-bottom: 5px solid purple;
+	margin-bottom: 15%;
+	padding: 13px 0;
+}
+
+.box {
+	width: 100%;
+	/* border: 2px solid purple; */
+	/* border-bottom: 2px solid purple; */
+	margin: 22px 0px;
+}
+
+.box input {
+	background: white;
+	width: 75%;
+	padding: 5px 10px;
+	font-size: 20px;
+	border: 2px solid purple;
+	outline: none;
+	/* color: white; */
+	border-radius: 10px;
+}
+
+.btn {
+	color: black;
+	cursor: pointer;
+	outline: none;
+	/* width: 25%; */
+	margin: 12px 0;
+	padding: 10px 21px;
+	border: 2px solid purple;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	background: none;
+}
+
+.btn :hover {
+	color: purple;
+	background: white;
+}
+
+.form>*:first-child {
+	margin-top: 0;
+}
+
+p {
+	position: absolute;
+	top: 100%;
+	right: 10%;
+	left: 5%;
+	padding: 10px 0;
+	font-weight: bold;
+	font-family: cursive;
+	text-decoration: none;
+}

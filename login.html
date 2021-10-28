@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>LOGIN ACCOUNT</h1>
+        <form action="/myaction.js" name="myForm" onsubmit="return validateForm()" method="POST">
+            <div class="box">
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="box">
+                <input type="password" name="password" id="password" placeholder="Enter password" required>
+            </div>
+
+            <div>
+                <button class="btn" type="submit" id="click">Login</button>
+            </div>
+
+            <!-- <div class="form__message__form__message--error">Incorrect username & password combination</div> -->
+
+            <p class="form__text">
+                <a id="linkcreateaccount" href="signup.html">Dont have account ? Sign in</a>
+            </p>
+        </form>
+    </div>
+
+</body>
+</html>
