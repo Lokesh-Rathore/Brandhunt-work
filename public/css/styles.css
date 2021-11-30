@@ -97,6 +97,7 @@ section {
   /* margin-left: 1.8em; */
   font-weight: 500;
   font-size: 3em;
+  font-family: 'Ubuntu Condensed', sans-serif;
 }
 .first .left .txt2 {
   font-weight: 450;
@@ -477,6 +478,7 @@ section {
   font-weight: 500;
   justify-content: flex-start;
   align-items: center;
+  font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 @media(max-width:1024px) {
@@ -686,6 +688,7 @@ section {
   width: 60vw;
   margin: 20px auto;
   font-size: 2em;
+  font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .real h4{
@@ -737,6 +740,8 @@ section {
   width: 99vw;
   text-align: center;
   text-align-last: center;
+  /* background-color: rgb(250, 5, 5); */
+  min-height: 29vh;
 }
 .first .left .txt{
   margin: 2px auto;
@@ -744,14 +749,36 @@ section {
 .first .left .txt2{
   width: 98vw;
 }
+.first .women {
+  /* background-color: black; */
+  width: 90vw;
+  height: 35vh;
+  justify-content: center;
+  align-items: center;
+}
 .first .women img {
-  width: 50vw;
-  height: 30vh;
+  min-width: 90vw;
+  height: 35vh;
 }
 .second{
   width: 96vw;
 }
+.second .money {
+  /* background-color: red; */
+  width: 95vw;
+  height: 30vh;
+  text-align: center;
+}
 .second .money img{
-  width: 60vw;
+  min-width: 90vw;
+}
+.wrapper2 {
+  width: 100vw;
+}
+.wrapper2 .box2{
+  width: 80vw;
+}
+.wrapper2 .box2 img {
+  width: 70vw;
 }
 }

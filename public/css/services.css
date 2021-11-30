@@ -46,20 +46,20 @@ h5 {
 }
 
 .img-1 {
-    width: 50vw;
+    width: 45vw;
 }
 
 .img-2 {
-    width: 60vw;
+    width: 47vw;
 }
 
 .img-3 {
-    width: 60vw;
+    width: 50vw;
 }
 
 .img-4 {
-    width: 48vw;
-}
+    width: 40vw;
+}       
 
 .carousel-inner {
     text-align: center;
@@ -96,7 +96,7 @@ h5 {
 
 .container img {
     /* height: 70vw; */
-    width: 60%;
+    width: 40%;
 }
 
 .container p {
